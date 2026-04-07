@@ -1,0 +1,48 @@
+name: starlux_hotel
+description: A revolutionary Hotel Management System using Flutter and Firebase.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+  provider: ^6.1.1
+  google_fonts: ^6.1.0
+  lottie: ^3.1.0
+  shimmer: ^3.0.0
+  curved_navigation_bar: ^1.0.3
+  audioplayers: ^5.2.1
+  flutter_tts: ^3.8.5
+  fl_chart: ^0.66.0
+  font_awesome_flutter: ^10.7.0
+  qr_flutter: ^4.1.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Asset registration placeholders
+  # assets:
+  #   - assets/animations/
+  #   - assets/audio/
+  #   - assets/images/
+
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: fonts/Tajawal-Regular.ttf
+        - asset: fonts/Tajawal-Bold.ttf
+          weight: 700
